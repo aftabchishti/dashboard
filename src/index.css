@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .blue{
+  background-color: rgb(17, 238, 238);
+}
+.yellow {
+  background-color: rgb(255, 187, 0);
+}
+.green {
+  background-color: rgba(67, 167, 67, 0.733);
+}
+.red {
+  background-color: rgb(223, 53, 53);
+} */
+.blue{
+  background: linear-gradient(
+    45deg, #0577f8, #73b4ff);
+}
+.green {
+  background: linear-gradient(
+45deg, #188a73, #59e0c5);
+}
+.yellow {
+  background: linear-gradient(
+45deg, #FFB64D, #e9cba2);
+}
+.red {
+  background: linear-gradient(
+45deg, #FF5370, #ff869a);
+}
+.card{
+  box-shadow: 0 1px 2.94px 0.06px rgb(4 26 55 / 16%);
+    margin-bottom: 30px;
+}
+
+.order-card {
+  color: #fff;
+}
+.order-card i {
+  font-size: 26px;
+}
+.text-right {
+  text-align: right !important;
+ 
+}
+.float-right {
+  float: right !important;
+
+}
+.float-left {
+  float: left !important;
+  box-sizing: border-box;
+}
+
+
